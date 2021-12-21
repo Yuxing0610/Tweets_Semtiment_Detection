@@ -1,0 +1,9 @@
+datetime
+numpy
+pandas
+torch
+transformers
+sentencepiece
+fasttext
+tensorflow-gpu
+keras

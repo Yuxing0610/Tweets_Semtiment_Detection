@@ -1,0 +1,7 @@
+project_text_classification/twitter-datasets/train_neg_full.txt
+project_text_classification/twitter-datasets/train_pos_full.txt
+project_text_classification/.ipynb_checkpoints
+*.txt
+*.npy
+*.pkl
+.ipynb_checkpoints

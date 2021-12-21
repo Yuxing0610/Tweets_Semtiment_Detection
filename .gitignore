@@ -5,3 +5,4 @@ project_text_classification/.ipynb_checkpoints
 *.npy
 *.pkl
 *.ipynb_checkpoints
+*.DS_Store

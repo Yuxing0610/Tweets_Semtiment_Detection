@@ -4,4 +4,4 @@ project_text_classification/.ipynb_checkpoints
 *.txt
 *.npy
 *.pkl
-.ipynb_checkpoints
+*.ipynb_checkpoints

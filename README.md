@@ -19,7 +19,7 @@ run `main.py` with params you need.
 
 param for BERT/BERTweet: pos_file_path, neg_file_path, test_file_path, model, load_model, load_model_path, num_epoch, batch_size
 
-e.g. `python main.py model=bertweet` you can get our best result. 
+e.g. `python main.py model=bertweet` you can get our best result.
 
 ## 4.Best result
 

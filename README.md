@@ -11,16 +11,19 @@ b-2) If error occurs in b-2 (it may have conflicts with other environments), `ba
 
 All the data and model parameters are packed in Google Drive, please download data from `https://drive.google.com/drive/folders/1lPgzweagIYhoEad9FFfrO2Lx39Dy0ubJ?usp=sharing` and use this `data` folder cover origin `data` folder.
 
-## 3.File Structure
-
-
 ## 3.Run
 
 run `run.py` with params you need.
 
-param for BERT/BERTweet: pos_file_path, neg_file_path, test_file_path, model, load_model, load_model_path, num_epoch, batch_size
+We've alread set proper default values to all parameters, so there is no need to set any other parameters if not necessary, just specify the model you wish to run.
 
-e.g. `python run.py model=bertweet` you can get our best result.
+e.g. 
+Berttweet: `python run.py model=bertweet` (which can produce our best result)
+Bert: `python run.py model=bert` 
+xlnet: `python run.py mode=xlnet`
+glove_embedding+SVM: `python run.py model=glove_embedding`
+fasttext supervised method: `python run.py model=fasttext_supervised`
+skipgram+SVM: `python
 
 ## 4.Best result
 

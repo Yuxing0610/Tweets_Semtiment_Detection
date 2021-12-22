@@ -7,11 +7,36 @@ b-1) Run `cd ./src/KrovetzStemmer` in command line to go to *KrovetzStemmer* fol
 
 b-2) If error occurs in b-2 (it may have conflicts with other environments), `backup_pre-processing.py` is prepared to run without *KrovetzStemmer* package
 
-## 2.Data
+## 2.Data Setting
 
 All the data and model parameters are packed in Google Drive, please download data from `https://drive.google.com/drive/folders/1lPgzweagIYhoEad9FFfrO2Lx39Dy0ubJ?usp=sharing` and use this `data` folder cover origin `data` folder.
 
-`train_neg_full_processed.txt`, `train_pos_full_processed.txt`, `test_data_processed.txt` are preprocessed data using `pre-processing.py`
+## 3.File Structure
+├── Readme.md                   // help
+├── app                         // 应用
+├── config                      // 配置
+│   ├── default.json
+│   ├── dev.json                // 开发环境
+│   ├── experiment.json         // 实验
+│   ├── index.js                // 配置控制
+│   ├── local.json              // 本地
+│   ├── production.json         // 生产环境
+│   └── test.json               // 测试环境
+├── data
+├── doc                         // 文档
+├── environment
+├── gulpfile.js
+├── locales
+├── logger-service.js           // 启动日志配置
+├── node_modules
+├── package.json
+├── app-service.js              // 启动应用配置
+├── static                      // web静态资源加载
+│   └── initjson
+│       └── config.js         // 提供给前端的配置
+├── test
+├── test-service.js
+└── tools
 
 ## 3.Run
 

@@ -18,12 +18,23 @@ run `run.py` with params you need.
 We've alread set proper default values to all parameters, so there is no need to set any other parameters if not necessary, just specify the model you wish to run.
 
 e.g. 
-Berttweet: `python run.py model=bertweet` (which can produce our best result)
-Bert: `python run.py model=bert` 
-xlnet: `python run.py mode=xlnet`
-glove_embedding+SVM: `python run.py model=glove_embedding`
-fasttext supervised method: `python run.py model=fasttext_supervised`
-skipgram+SVM: `python
+
+Berttweet: `python run.py --model=bertweet` (which can produce our best result)
+
+Bert: `python run.py --model=bert` 
+
+xlnet: `python run.py --mode=xlnet`
+
+glove_embedding+Ridge Regression: `python run.py --model=glove_embedding`
+
+fasttext supervised method: `python run.py --model=fasttext_supervised`
+
+skipgram+Ridge Regression: `python run.py --model=fasttext_unsupervised`
+
+self-implemented CNN: `python run.py --model=cnn`
+
+
+
 
 ## 4.Best result
 

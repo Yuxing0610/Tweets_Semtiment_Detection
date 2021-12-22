@@ -15,7 +15,7 @@ All the data and model parameters are packed in Google Drive, please download da
 
 ## 3.Run
 
-run `main.py` with params you need.
+run `run.py` with params you need.
 
 param for BERT/BERTweet: pos_file_path, neg_file_path, test_file_path, model, load_model, load_model_path, num_epoch, batch_size
 

@@ -30,14 +30,6 @@ To recurrent the best result, run `python main.py` directly, submission.csv will
 Note: preprocessed data is already provided. Or you can use `pre-processing.py` to create it again. If using `backup_pre-processing.py` to preprocess data, the accuracy rate will be 91.4% for slight difference in preprocessing Emoji compared with `pre-processing.py`
 
 
-## Contributors
-Xingyu SU
-
-Haobo SONG
-
-Yuxing YAO
-
-
 
 
 

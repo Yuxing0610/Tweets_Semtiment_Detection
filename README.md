@@ -11,6 +11,8 @@ b-2) If error occurs in b-2 (it may have conflicts with other environments), `ba
 
 All the data and model parameters are packed in Google Drive, please download data from `https://drive.google.com/drive/folders/1lPgzweagIYhoEad9FFfrO2Lx39Dy0ubJ?usp=sharing` and use this `data` folder cover origin `data` folder.
 
+The downloaded `data` folder contains all preprocessed data and pth files that can be loaded into our models directly.
+
 ## 3.Run
 
 run `run.py` with params you need.
@@ -33,6 +35,8 @@ skipgram+Ridge Regression: `python run.py --model=fasttext_unsupervised`
 
 self-implemented CNN: `python run.py --model=cnn`
 
+--model is set to be 'bertweet' as default value
+
 **
 If you want to change other parameters, here are some demonstrations:**
 
@@ -52,7 +56,7 @@ Now the best result is already saved in `./output/submission.csv`, the accuracy 
 
 To recurrent the best result, run `python run.py` directly, submission.csv will be created in `./output/submission.csv.` 
 
-Note: preprocessed data is already provided. Or you can use `pre-processing.py` to create it again. If using `backup_pre-processing.py` to preprocess data, the accuracy rate will be 91.4% for slight difference in preprocessing Emoji compared with `pre-processing.py`
+Note: preprocessed data is already provided. Or you can use `pre-processing.py` to create it again. If using `backup_pre-processing.py` to preprocess data, the accuracy rate will be 91.4% instead of 91.5% because of some slight changes in preprocessing method.
 
 
 

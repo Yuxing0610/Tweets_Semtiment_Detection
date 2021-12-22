@@ -34,10 +34,15 @@ skipgram+Ridge Regression: `python run.py --model=fasttext_unsupervised`
 self-implemented CNN: `python run.py --model=cnn`
 
 **
-If you want to change other parameters, here are some demonstration:**
+If you want to change other parameters, here are some demonstrations:**
 
-values of N-grams : `--ngrams = $ ` $ can be any integers, and it is set to be 4 as default
+values of N-grams : `--ngrams=$ ` $ can be any integers, and it is set to be 4 as default
 
+choose to load parameters or train models from zero :  `--load_model=$` $ can be True or False, and it is set to be True as default
+
+choose the method of GloVe embedding :  `--glove_method=$` $ can be trained, pretrained or merged, and it is set to be merged as default
+
+There are many other parameters you can change, please refer to the code and detailed comment in `run.py`
 
 
 

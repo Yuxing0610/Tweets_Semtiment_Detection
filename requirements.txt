@@ -8,3 +8,5 @@ fasttext
 tensorflow-gpu
 keras
 sklearn
+seaborn
+nltk

@@ -15,7 +15,7 @@ The downloaded `data` folder contains all preprocessed data and pth files that c
 
 ## 3.Run
 
-run `run.py` with params you need.
+Enter `src` file and run `run.py` with params you need.
 
 We've alread set proper default values to all parameters, so there is no need to set any other parameters if not necessary, just specify the model you wish to run.
 

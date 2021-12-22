@@ -19,13 +19,13 @@ run `run.py` with params you need.
 
 param for BERT/BERTweet: pos_file_path, neg_file_path, test_file_path, model, load_model, load_model_path, num_epoch, batch_size
 
-e.g. `python main.py model=bertweet` you can get our best result.
+e.g. `python run.py model=bertweet` you can get our best result.
 
 ## 4.Best result
 
 Now the best result is already saved in `./output/submission.csv`, the accuracy rate is 91.5%.
 
-To recurrent the best result, run `python main.py` directly, submission.csv will be created in `./output/submission.csv.` 
+To recurrent the best result, run `python run.py` directly, submission.csv will be created in `./output/submission.csv.` 
 
 Note: preprocessed data is already provided. Or you can use `pre-processing.py` to create it again. If using `backup_pre-processing.py` to preprocess data, the accuracy rate will be 91.4% for slight difference in preprocessing Emoji compared with `pre-processing.py`
 

@@ -33,6 +33,10 @@ skipgram+Ridge Regression: `python run.py --model=fasttext_unsupervised`
 
 self-implemented CNN: `python run.py --model=cnn`
 
+If you want to change other parameters, here are some demonstration:
+
+values of N-grams : `--ngrams = $ ` $ can be any integers, and it is set to be 4 as default
+
 
 
 
